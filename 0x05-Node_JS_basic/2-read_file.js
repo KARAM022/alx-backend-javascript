@@ -5,7 +5,6 @@ function countStudents(path) {
     const fields = {};
     const students = {};
     let count = 0;
-
     let data = data1.map(line => line.replace('\r', ''));
     data.shift();
 
