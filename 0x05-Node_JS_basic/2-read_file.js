@@ -1,4 +1,12 @@
+/**
+ * CMNT: This is a simple function that takes a message and logs it to the console.
+ * @param {*} path
+ */
 function countStudents(path) {
+  /**
+   * CMNT: This is a simple function that takes a message and logs it to the console.
+   * @param {*} path
+   */
   try {
     const fs = require('fs');
     const data1 = fs.readFileSync(path, 'utf8').split('\n');
